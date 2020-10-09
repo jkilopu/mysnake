@@ -24,10 +24,9 @@ Help your snake grow longer and longer, your score will be recorded in *scoreboa
 ## Installation
 
 ``` bash
-git clone https://github.com/jkilopu/Linux-Programming.git
-cd ./Linux-Programming/mysnake
-mkdir build
-cd build
+git clone https://github.com/jkilopu/mysnake.git
+cd ./mysnake
+mkdir build && cd build
 cmake .. # You may need to specify a build system generator with "-G" option
 make
 cd ..
